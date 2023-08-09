@@ -3,19 +3,19 @@
     src:url('../font/Grandstander/static/Grandstander-ExtraLight.ttf') format('truetype');
     font-weight: 200; 
     font-style: normal;
-  }
-  @font-face {
+}
+@font-face {
     font-family: 'Grandsrander';
     src:url('../font/Grandstander/static/Grandstander-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-  }
-  @font-face {
+}
+@font-face {
     font-family: 'Grandsrander';
     src:url('../font/Grandstander/static/Grandstander-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
-  }
+}
 body{
     margin: 0;
     font-family: 'Grandsrander' ;
@@ -27,28 +27,37 @@ body{
 .header{
     margin: 0;
 }
- .header h1{
+.header h1{
     font-family: 'Grandsrander' ;
     font-weight: 900;
     font-size: 350%;
+    text-shadow:5px 5px 0px black;
 }
- .header p {
-    font-weight: 400;
- }
- .header img {
+.header h5{
+    font-weight: 900;
+}
+.header p {
+    font-weight: 200;
+}
+.header img {
     
     max-width: 50% ;
     border: 9px outset #14B592;
 
- }
- .header img:hover {
+}
+.header img:hover {
     animation: fadein 2s infinite;
 }
- .shadow-drop-center {
+.shadow-drop-center {
 	-webkit-animation: shadow-drop-center 0.5s ease-out both;
 	        animation: shadow-drop-center 0.5s ease-out both;
 }
 @keyframes fadein {
     50% {box-shadow: 0px 0px 40px #ECD3A9;}
 }
-
+#portfolio .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
