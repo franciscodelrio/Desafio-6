@@ -1,80 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Maria Mellado portfolio</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets\css\stilos.css">
-    </head>
-    <body>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-        <nav class=" navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container text-center ">
-                <div class="col">
-                    <img src="assets\img\bank2.svg" alt="Experiencia"> 
-                    <p class="d-none d-md-none d-xl-block ">Experiencia</p>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Mellado portfolio</title>
+    <link rel="stylesheet" href="M:/carpetas/Study/Desafio 6/Desafio-6/assets/css/normalice.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/stilos.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <nav class=" navbar navbar-expand-lg">
+        <div class="container text-center text-light  ">
+            <div class="col ">
+                <i class="bi bi-bank"></i>
+                <p class="d-none d-md-none d-xl-block mb-0">Experiencia</p>
+            </div>
+            <div class="col">
+                <i class="bi bi-mortarboard-fill"></i>
+                <p class="d-none d-md-none d-xl-block mb-0">Educación</p>
+            </div>
+            <div class="col">
+                <i class="bi bi-briefcase-fill"></i>
+                <p class="d-none d-md-none d-xl-block mb-0">Proyectos</p>
+            </div>
+        </div>
+    </nav>
+    <header class="container pt-3 pt-lg-5 mt-lg-5 cabeza"> 
+        <div
+            class=" row align-items-center justify-content-center g-5 row-cols-1 row-col-sm-3 row-cols-md-2 row-cols-lg-3 row-cols-xl-auto ">
+            <div class="col-xl-auto">
+                <img src="assets/img/03c8cf32-7229-49d4-a81c-525b8a712b10.jpg"
+                    class="rounded-pill mx-auto d-block mt-2 mt-lg-4 " alt="foto">
+            </div>
+            <div class="col-auto col-sm-12 col-lg-6 col-xl-auto pt-3 text-break">
+                <h1 class="text-light text-center">Maria Mellado</h1>
+                <h5 class="text-light text-center">Cheskalala</h5>
+                <div>
+                    <p class="text-light text-center" >
+                        Estudiante autónoma de programación desde hace 2 años, me inicie hosteando y configurando servidores de de manera ocasional, arreglando computadores y actualmente me encuentro cursando un bootcamp de desarrollo fullstack javascript en Academia Desafió LATAM.
+                    </p>
                 </div>
-                <div class="col">
-                    <img src="assets\img\mortarboard-fill.svg" alt="Educación">
-                    <p class="d-none d-md-none d-xl-block ">Educación</p>
-                </div>
-                <div class="col">
-                    <img src="assets\img\briefcase-fill.svg" alt="Proyectos">
-                    <p class="d-none d-md-none d-xl-block ">Proyectos</p>
-                </div>
-            </div>    
-        </nav>
-        <header class="header mt-2 ">
-            <div class="row align-items-center justify-content-center row-cols-1 row-col-sm-3 row-cols-md-2 row-cols-lg-3 row-cols-xl-auto   ">
-                <div class="col-xl-auto ">
-                    <img src="assets\img\03c8cf32-7229-49d4-a81c-525b8a712b10.jpg" class="rounded-pill mx-auto d-block mt-lg-5" alt="foto">
-                </div>
-                <div class="col-auto col-sm-12 col-lg-6 col-xl-auto  text-break">  
-                    <h1 class="text-light text-center">Maria Mellado</h1>
-                    <h5 class="text-light text-center">Cheskalala</h5>
-                    <div>
-                        <p class="text-light text-center" style="max-width: 30rem;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint perferendis dignissimos enim illo consequuntur odio, quae, fugiat, voluptatibus ad amet alias possimus et quos eos nesciunt? Aspernatur maiores blanditiis sed!
-                        </p>
+            </div>
+        </div>
+    </header>
+    <!-- agregar flecha hacia abajo -->
+    <section id="portfolio" class="portfolio  my-5 py-5 ">
+        <h2 class="text-center text-light fs-1 mb-5 ">Portfolio</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center  g-4 mx-5 pb-5">
+            <div class="col">    
+            <div class="card text-light h-100 mx-2">
+                <span class="border border-primary-subtle border-4 rounded mx-3 my-3"><div class="image-top" style="background-image: url(assets/img/trabajo1.png)"></div></span>
+                    <div class="card-body text-center">
+                        <h4 class="card-title ">"Brilli-Brilli"</h4>
+                        <p class="card-text">Primer prototipo pagina principal de tienda de joyas, en base a html y css.</p>
+                    </div>
+                    <div class="card-footer text-end">
+                        <a href="#" class="text-decoration-none"><small class="text-body-secondary "></small></a>
                     </div>
                 </div>
             </div>
-        </header>
-        <section id="portfolio" class="container mt-5 pt-5">
-            <h1 class="text-center text-white">Portfolio</h1>
-            <div class="row row-cols-1 row-col-sm-2 row-cols-md-2 row-cols-lg-4  g-4 mx-5">
-                <div class="card col mx-2">
-                    <div class="image-top" style="background-image: url(assets/img/trabajo1.png)"></div>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col">
+            <div class="card text-light h-100 mx-2">
+                <span class="border border-primary-subtle border-4 rounded mx-3 my-3"><div class="image-top" style="background-image: url(assets/img/trabajo2.png)"></div></span>
+                <div class="card-body text-center">
+                    <h4 class="card-title ">"Taller de cerámica"</h4>
+                    <p class="card-text">Landing page de un taller de cerámica aplicando flexbox.</p>
+                </div>
+                <div class="card-footer text-end">
+                    <a href="#" class="text-decoration-none"><small class="text-body-secondary "></small></a>
                 </div>
             </div>
-            <div class="card col mx-2">
-                <div class="image-top" style="background-image: url(assets/img/trabajo2.png)"></div>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+
+        <div class="col">
+            <div class="card text-light h-100 mx-2">
+                <span class="border border-primary-subtle border-4 rounded mx-3 my-3"><div class="image-top " style="background-image: url(assets/img/trabajo3.png)"></div></span>
+                <div class="card-body text-center">
+                    <h4 class="card-title">Desafío 4 - Brilli Brilli</h4>
+                    <p class="card-text">Segundo prototipo pagina principal de tienda de joyas, incluyendo bootstrap.</p>
+                </div>
+                <div class="card-footer text-end">
+                    <a href="#" class="text-decoration-none"><small class="text-body-secondary "></small></a>
                 </div>
             </div>
-            <div class="card col mx-2">
-                <div class="image-top" style="background-image: url(assets/img/trabajo3.png)"></div>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+        </div>
+        </div>
+    </section>
+    <section id="xp" class="container  text-center my-5 py-5">
+        <h2 class="text-light pb-5" >Experiencia Laboral</h2>
+        <div class="text-light"> 
+            <h4> Frutería Mari Mari</h4>
+            <p class="mb-0">Atención a publico y gestión administrativa </p>
+            <p class="fst-italic">2016 - 2021</p>
+        </div>
+        
+    </section>
+    <section id="education" class="education text-center my-5 py-5 ">
+        <h2 class="text-light pb-5 ">Educación</h2>
+        <div class="container  text-light">
+            <div class="col">
+                <h4>Academia Desafío LATAM</h4>
+                <p class="mb-0">Desarrollo Full Stack JavaScript</p>
+                <p class="fst-italic"> Cursando</p>
             </div>
-        </section>
-        <section id="xp" class="container text-center mt-5">
-            <p class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas earum exercitationem possimus hic, ratione ducimus delectus, laborum qui iusto, soluta nam? Architecto consequuntur possimus consequatur voluptatem, adipisci veritatis quasi quo!</p>
-        </section>
-        <section id="education" class="text-center">
-            <ul>
-                <li>Desafio Latam</li>
-                <li>U2</li>
-                <li>U1</li>
-                <li>Colegio</li>
-            </ul>
-        </section>
-        <footer></footer>
-    </body>
+
+            <div>
+                <h4>Colegio San Gabriel Arcángel</h4>
+                <p class="mb-0">Formación general básica y secundaria</p>
+                <p class="fst-italic">Egreso 2015</p>
+            </div>
+        </div>
+    </section>
+    <section id="suscribe" class="menu-desplegable">
+        <div class="container text-center col-12 col-lg-6 col-xl-6">
+        <div class=" mb-3 mt-3 align-self-center  ">
+            <h2 class=" text-center text-light "> Contacto </h2>
+        </div>
+        <div class="mb-3">
+            <input class="form-control text-center" type="text" placeholder="Nombre" aria-label="Nombre" />
+        </div>
+        <div class="mb-3">
+            <input class="form-control text-center" type="text" placeholder="Correo" aria-label="Correo" />
+        </div>
+        <div class="mb-3 ">
+            <input class="form-control  mensaje " type="text" placeholder="Mensaje" aria-label="Mensaje" />
+        </div>
+        <div class="mb-3 align-self-center d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary">Enviar</button>
+        </div>
+        </div>
+    </section>
+    <footer class="container-fluid  text-center text-light">
+    <h2 class="pt-3">⁂ Maria Mellado ⁂</h2>
+    </footer>
+</body>
 </html>
