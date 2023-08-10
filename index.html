@@ -18,18 +18,26 @@
         crossorigin="anonymous"></script>
     <nav class=" navbar navbar-expand-lg">
         <div class="container text-center text-light  ">
-            <div class="col ">
-                <i class="bi bi-bank"></i>
-                <p class="d-none d-md-none d-xl-block mb-0">Experiencia</p>
-            </div>
-            <div class="col">
-                <i class="bi bi-mortarboard-fill"></i>
-                <p class="d-none d-md-none d-xl-block mb-0">Educación</p>
-            </div>
-            <div class="col">
-                <i class="bi bi-briefcase-fill"></i>
-                <p class="d-none d-md-none d-xl-block mb-0">Proyectos</p>
-            </div>
+            <a class="nav-link" href="#portfolio">
+                <div class="col">
+                    <i class="bi bi-briefcase-fill"></i>
+                    <p class="d-none d-md-none d-xl-block mb-0">Proyectos</p>
+                </div>
+            </a>
+            <a class="nav-link" href="#xp">
+                <div class="col ">
+                    <i class="bi bi-bank"></i>
+                    <p class="d-none d-md-none d-xl-block mb-0">Experiencia</p>
+                </div>
+            </a>
+            <a class="nav-link" href="#education">
+
+                <div class="col">
+                    <i class="bi bi-mortarboard-fill"></i>
+                    <p class="d-none d-md-none d-xl-block mb-0">Educación</p>
+                </div>
+            </a>
+
         </div>
     </nav>
     <header class="container pt-3 pt-lg-5 mt-lg-5 cabeza"> 
@@ -47,10 +55,16 @@
                         Estudiante autónoma de programación desde hace 2 años, me inicie hosteando y configurando servidores de de manera ocasional, arreglando computadores y actualmente me encuentro cursando un bootcamp de desarrollo fullstack javascript en Academia Desafió LATAM.
                     </p>
                 </div>
+                <div class="col mb-5 mt-1 text-center ">
+                    <a href="#suscribe">
+                        <button class="btn text-light border-black border-3">
+                        ¡Contáctame!
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
     </header>
-    <!-- agregar flecha hacia abajo -->
     <section id="portfolio" class="portfolio  my-5 py-5 ">
         <h2 class="text-center text-light fs-1 mb-5 ">Portfolio</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center  g-4 mx-5 pb-5">
@@ -123,22 +137,25 @@
         <div class=" mb-3 mt-3 align-self-center  ">
             <h2 class=" text-center text-light "> Contacto </h2>
         </div>
-        <div class="mb-3">
-            <input class="form-control text-center" type="text" placeholder="Nombre" aria-label="Nombre" />
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+            <label for="floatingInput">Nombre:</label>
         </div>
-        <div class="mb-3">
-            <input class="form-control text-center" type="text" placeholder="Correo" aria-label="Correo" />
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="correo">
+            <label for="floatingInput">Correo:</label>
         </div>
-        <div class="mb-3 ">
-            <input class="form-control  mensaje " type="text" placeholder="Mensaje" aria-label="Mensaje" />
-        </div>
-        <div class="mb-3 align-self-center d-grid gap-2 col-6 mx-auto">
-            <button class="btn btn-primary">Enviar</button>
+        <div class="form-floating mb-4">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Mensaje:</label>
+            </div>
+        <div class="mb-5 mt-5 align-self-center d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary border-black border-3">Enviar</button>
         </div>
         </div>
     </section>
     <footer class="container-fluid  text-center text-light">
-    <h2 class="pt-3">⁂ Maria Mellado ⁂</h2>
+    <h2 class="pt-4">⁂ Maria Mellado ⁂</h2>
     </footer>
 </body>
 </html>

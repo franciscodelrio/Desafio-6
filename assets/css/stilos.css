@@ -43,6 +43,7 @@ header h1{
 }
 header h5{
     font-weight: 900;
+    text-shadow:2px 2px 0px black;
 }
 header p {
     font-weight: 200;
@@ -100,6 +101,12 @@ section h4{
 input{
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.577);
 }
+textarea{
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.577);
+}
+.btn{
+    background-color: rgba(10, 167, 120, 0.35); 
+}
 footer{
     background-color: rgba(10, 167, 120, 0.514);
     height: 70px;
@@ -111,3 +118,4 @@ footer h2{
     text-shadow:3px 3px 0px black;
     margin-bottom: 0;
 }
+
