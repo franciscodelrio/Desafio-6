@@ -49,13 +49,13 @@ header p {
     font-weight: 200;
     max-width: 30rem;
 }
-header img {
+.perfil {
     border: 9px outset #14B592;
     
     height: 400px;
 
 }
-header img:hover {
+.perfil:hover {
     animation: fadein 4s infinite;
 }
 .shadow-drop-center {
@@ -103,6 +103,7 @@ input{
 }
 textarea{
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.577);
+    max-height: 200px;
 }
 .btn{
     background-color: rgba(10, 167, 120, 0.35); 

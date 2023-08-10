@@ -44,8 +44,8 @@
         <div
             class=" row align-items-center justify-content-center g-5 row-cols-1 row-col-sm-3 row-cols-md-2 row-cols-lg-3 row-cols-xl-auto ">
             <div class="col-xl-auto">
-                <img src="assets/img/03c8cf32-7229-49d4-a81c-525b8a712b10.jpg"
-                    class="rounded-pill mx-auto d-block mt-2 mt-lg-4 " alt="foto">
+                <img  src="assets/img/03c8cf32-7229-49d4-a81c-525b8a712b10.jpg"
+                    class="rounded-pill mx-auto d-block mt-2 mt-lg-4 perfil " alt="foto">
             </div>
             <div class="col-auto col-sm-12 col-lg-6 col-xl-auto pt-3 text-break">
                 <h1 class="text-light text-center">Maria Mellado</h1>
@@ -55,9 +55,17 @@
                         Estudiante autónoma de programación desde hace 2 años, me inicie hosteando y configurando servidores de de manera ocasional, arreglando computadores y actualmente me encuentro cursando un bootcamp de desarrollo fullstack javascript en Academia Desafió LATAM.
                     </p>
                 </div>
+                <div class="col text-center my-4">
+                    <h5 class="text-light text-center">Tecnologías</h5>
+                    <img width="48" height="48" src="https://img.icons8.com/fluency/48/html-5.png" alt="html-5"/>
+                    <img width="48" height="48" src="https://img.icons8.com/fluency/48/css3.png" alt="css3"/>
+                    <img width="48" height="48" src="https://img.icons8.com/nolan/48/bootstrap.png" alt="bootstrap"/>
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/git.png" alt="git"/>
+                    <img width="48" height="48" src="https://img.icons8.com/fluency/48/github.png" alt="github"/>
+                </div>
                 <div class="col mb-5 mt-1 text-center ">
                     <a href="#suscribe">
-                        <button class="btn text-light border-black border-3">
+                        <button class="btn btn-primary text-light border-black border-3">
                         ¡Contáctame!
                         </button>
                     </a>
@@ -65,12 +73,15 @@
             </div>
         </div>
     </header>
+
+
+
     <section id="portfolio" class="portfolio  my-5 py-5 ">
         <h2 class="text-center text-light fs-1 mb-5 ">Portfolio</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center  g-4 mx-5 pb-5">
             <div class="col">    
             <div class="card text-light h-100 mx-2">
-                <span class="border border-primary-subtle border-4 rounded mx-3 my-3"><div class="image-top" style="background-image: url(assets/img/trabajo1.png)"></div></span>
+                <span class="border border-primary-subtle border-4 rounded mx-3 my-3"><div class="image-top rounded" style="background-image: url(assets/img/trabajo1.png)"></div></span>
                     <div class="card-body text-center">
                         <h4 class="card-title ">"Brilli-Brilli"</h4>
                         <p class="card-text">Primer prototipo pagina principal de tienda de joyas, en base a html y css.</p>
@@ -82,7 +93,7 @@
             </div>
         <div class="col">
             <div class="card text-light h-100 mx-2">
-                <span class="border border-primary-subtle border-4 rounded mx-3 my-3"><div class="image-top" style="background-image: url(assets/img/trabajo2.png)"></div></span>
+                <span class="border border-primary-subtle border-4 rounded mx-3 my-3"><div class="image-top rounded" style="background-image: url(assets/img/trabajo2.png)"></div></span>
                 <div class="card-body text-center">
                     <h4 class="card-title ">"Taller de cerámica"</h4>
                     <p class="card-text">Landing page de un taller de cerámica aplicando flexbox.</p>
@@ -95,7 +106,7 @@
 
         <div class="col">
             <div class="card text-light h-100 mx-2">
-                <span class="border border-primary-subtle border-4 rounded mx-3 my-3"><div class="image-top " style="background-image: url(assets/img/trabajo3.png)"></div></span>
+                <span class="border border-primary-subtle border-4 rounded mx-3 my-3"><div class="image-top rounded " style="background-image: url(assets/img/trabajo3.png)"></div></span>
                 <div class="card-body text-center">
                     <h4 class="card-title">Desafío 4 - Brilli Brilli</h4>
                     <p class="card-text">Segundo prototipo pagina principal de tienda de joyas, incluyendo bootstrap.</p>
@@ -146,7 +157,7 @@
             <label for="floatingInput">Correo:</label>
         </div>
         <div class="form-floating mb-4">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" maxlength="144"></textarea>
             <label for="floatingTextarea">Mensaje:</label>
             </div>
         <div class="mb-5 mt-5 align-self-center d-grid gap-2 col-6 mx-auto">
